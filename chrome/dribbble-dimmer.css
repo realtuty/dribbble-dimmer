@@ -1,0 +1,35 @@
+#dd-mask {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  opacity: 0.95;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 800; 
+}
+#single-img {
+  position: relative;
+  z-index: 900;
+}
+#single-img a#dd-toggle {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background-color: rgba(255, 255, 255, 0.11);
+  background-image: url('chrome-extension://__MSG_@@extension_id__/lightbulb.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  z-index: 1000;
+  border-radius: 5px;
+  opacity: 0.75;
+  -webkit-border-radius: 5px;
+  -webkit-transition: opacity 0.2s ease-in;
+}
+#single-img a#dd-toggle:hover {
+    opacity: 1;
+}
