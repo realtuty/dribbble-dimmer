@@ -13,7 +13,7 @@
   position: relative;
   z-index: 900;
 }
-#single-img a#dd-toggle {
+#single-img div#dd-toggle {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -29,11 +29,11 @@
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-in;
 }
-#single-img:hover a#dd-toggle {
+#single-img:hover div#dd-toggle {
   opacity: 0.75;
   -webkit-transition-delay: 0.5s;
 }
-#single-img a#dd-toggle:hover {
+#single-img div#dd-toggle:hover {
   opacity: 0;
   cursor: none;
   -webkit-transition-delay: 0s;

@@ -1,6 +1,6 @@
 // add UI elements
 $('body').prepend('<div id="dd-mask"></div>');
-$('#single-img').append('<a href="#" id="dd-toggle"></a>');
+$('#single-img').append('<div id="dd-toggle"></div>');
 
 // observe toggle mouseovers
 $('#dd-toggle').hover(
